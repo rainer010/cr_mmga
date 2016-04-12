@@ -1,0 +1,25 @@
+﻿Descargar e intalar opencv
+
+pasar estos parametros a la maquina virtual:
+
+
+-Djava.library.path=C:\\Users\\rainer\\Opencv\\opencv\\build\\java\\x64\\ -Xmx700m -Xms700m
+
+
+
+
+Y los siguientes parametros a la aplicación:
+
+ 
+
+opencv_java300 db2/ result 10000 500
+ 
+ 
+
+nombre de la biblioteca, generalmente es el mismo siempre
+ directorio de imagenes
+ directorio de salida
+ numero de evaluaciones
+ tamaño de la población
+ 
+ 
